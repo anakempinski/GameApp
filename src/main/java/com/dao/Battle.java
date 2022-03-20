@@ -50,7 +50,7 @@ public class Battle {
 
 
     /**
-     * The function runs battle between two trainers, and returns the result according to number of pointers
+     * The function runs battle between two trainers, and returns the result according to number of points
      * that each trainer received
      * @return
      */

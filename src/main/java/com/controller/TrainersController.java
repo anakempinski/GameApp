@@ -1,11 +1,11 @@
 package com.controller;
 
 
-import com.plainid.assignment.converter.mapper.PokemonRawMapper;
-import com.plainid.assignment.converter.mapper.TrainerRowMapper;
-import com.plainid.assignment.dao.Pokemon;
-import com.plainid.assignment.dao.Trainer;
-import com.plainid.assignment.dao.TrainersList;
+import com.converter.mapper.PokemonRawMapper;
+import com.converter.mapper.TrainerRowMapper;
+import com.dao.Pokemon;
+import com.dao.Trainer;
+import com.dao.TrainersList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +16,6 @@ import java.util.Comparator;
 import java.util.List;
 
 @RestController
-//@RequestMapping("/trainers")
 public class TrainersController {
 
     private

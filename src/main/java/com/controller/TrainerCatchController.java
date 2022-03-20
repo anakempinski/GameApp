@@ -1,10 +1,10 @@
 package com.controller;
 
 
-import com.plainid.assignment.converter.mapper.PokemonRawMapper;
-import com.plainid.assignment.converter.mapper.TrainerRowMapper;
-import com.plainid.assignment.dao.Pokemon;
-import com.plainid.assignment.dao.Trainer;
+import com.converter.mapper.PokemonRawMapper;
+import com.converter.mapper.TrainerRowMapper;
+import com.dao.Pokemon;
+import com.dao.Trainer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;

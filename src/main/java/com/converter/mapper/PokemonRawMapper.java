@@ -1,15 +1,13 @@
 package com.mapper;
 
-import com.plainid.assignment.dao.Pokemon;
-import com.plainid.assignment.dao.PokemonType;
+import com.dao.Pokemon;
+import com.dao.PokemonType;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * Hellper class to map SQL results to pokemon pojo
- */
+
 public class PokemonRawMapper implements RowMapper<Pokemon> {
     @Override
     public Pokemon mapRow(ResultSet rs, int rowNum) throws SQLException {
